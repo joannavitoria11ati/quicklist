@@ -32,7 +32,7 @@ function showItemsList() {
                     <label for="item-${index}" onclick="checkItem('${item.name}')">${item.name}</label>
                 </div>
 
-                <button>
+                <button onclick="removeItem('${item.name}')">
                     <img src="./assets/trash-icon.svg" alt="trash icon">
                 </button>
             </div>
