@@ -1,9 +1,10 @@
 const items = []
 
 function addItem() {
+    console.log("Abestado")
     const itemName = document.querySelector("#item").value
 
-     const item = {
+    const item = {
         name: itemName,
         checked: false
     }
