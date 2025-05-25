@@ -46,6 +46,9 @@ function removeItem(itemName) {
     if (itemIndex !== -1) {
         items.splice(itemIndex, 1)
     }
+        
+    const warning = document.querySelector(".warning")
+    warning.classList.remove("hide-warning")
 
     showItemsList()
 }
